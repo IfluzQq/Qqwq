@@ -3,7 +3,11 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
-
+git init
+git add .
+git commit -m tesbot
+heroku create
+git push heroku master
 # Other files and folders
 .settings/
 
